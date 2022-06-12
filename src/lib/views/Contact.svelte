@@ -17,12 +17,20 @@
     <table class="text-sm">
         <tr>
             <td class="pr-2">Email:</td>
-            <td>cmoyates@gmail.com</td>
+            <td>
+                <a href="mailto:cmoyates@gmail.com" class="
+                    hover:underline
+                ">
+                    cmoyates@gmail.com
+                </a>
+            </td>
         </tr>
         <tr>
             <td class="pr-2">LinkedIn:</td> 
             <td>
-                <a href="https://www.linkedin.com/in/cristopher-yates/">
+                <a href="https://www.linkedin.com/in/cristopher-yates/" class="
+                    hover:underline
+                ">
                     https://www.linkedin.com/in/cristopher-yates/
                 </a>
             </td>

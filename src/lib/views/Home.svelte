@@ -19,7 +19,7 @@
       space-x-5
     ">
       <Button text={"Projects"} click={() => {changeView(View.Projects)}}/>
-      <Button text={"GitHub"} click={() => {changeView(View.Home)}}/>
+      <Button text={"GitHub"} link="https://github.com/cmoyates"/>
       <Button text={"Contact"} click={() => {changeView(View.Contact)}}/>
     </div>
 </div>
