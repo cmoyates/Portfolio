@@ -8,6 +8,7 @@
   import Contact from "./lib/views/Contact.svelte";
   import { onMount } from "svelte";
   import ProjectsPerRowStore from "./lib/stores/ProjectsPerRowStore";
+  import projectDataJSON from "./assets/json/ProjectData.json";
 
 
   let width = tweened(28, {
@@ -64,7 +65,17 @@
       ProjectsPerRowStore.update((_) => e.matches ? 1 : 2);
     }
   })
+
+  // https://dev.to/khromov/preloading-images-in-svelte-465h
+  $: preloadImageUrls = projectDataJSON.projectList.map((item) => item.imgDir);
 </script>
+
+
+<head>
+  {#each preloadImageUrls as image}
+    <link rel="preload" as="image" href={image} />
+  {/each}
+</head>
 
 <main class="
   bg-black

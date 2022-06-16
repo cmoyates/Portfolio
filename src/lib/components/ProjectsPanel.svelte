@@ -2,9 +2,9 @@
     import ProjectCard from "./ProjectCard.svelte";
     import ProjectsPerRowStore from "../stores/ProjectsPerRowStore";
     import type { ProjectData } from "../../types";
-    import item from "../../assets/json/ProjectData.json";
+    import projectDataJSON from "../../assets/json/ProjectData.json";
 
-    let projectDataArray: ProjectData[] = item.projectList;
+    let projectDataArray: ProjectData[] = projectDataJSON.projectList;
 
 
 </script>
