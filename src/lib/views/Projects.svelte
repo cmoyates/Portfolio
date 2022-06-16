@@ -1,6 +1,7 @@
 <script lang="ts">
     import Button from "../components/Button.svelte";
     import { View } from '../../types';
+    import ProjectsPanel from "../components/ProjectsPanel.svelte";
 
     export let changeView: (newView: View) => void
 </script>
@@ -14,12 +15,6 @@
     space-y-6
     min-w-full
 ">
-    <div class="
-        bg-black 
-        flex-grow 
-        min-w-full
-    ">
-        Test
-    </div>
+    <ProjectsPanel/>
     <Button text="Back" click={() => {changeView(View.Home)}}/>
 </div>
