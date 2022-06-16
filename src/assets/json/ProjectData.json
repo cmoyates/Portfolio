@@ -33,7 +33,7 @@
             "imgDir": "images/pw-sm.jpg",
             "description": "This is my personal portfolio website. Made with Svelte and Tailwind.",
             "altText": "You're already here!",
-            "linkToSourceCode": "https://github.com/cmoyates/Portfolio-Website"
+            "linkToSourceCode": "https://github.com/cmoyates/Portfolio"
         },
         {
             "name": "Minecraft Settlement Generator",
