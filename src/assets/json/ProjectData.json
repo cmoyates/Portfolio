@@ -2,42 +2,42 @@
     "projectList": [
         {
             "name": "Re/Place",
-            "imgDir": "images/rp-sm.jpg",
+            "imgDir": "images/rp-sm.webp",
             "description": "A remake of r/Place. Made with Svelte and Typescript.",
             "linkToProject": "https://replace-frontend.vercel.app/",
             "linkToSourceCode": "https://github.com/cmoyates/RePlace-Frontend"
         },
         {
             "name": "Social Network",
-            "imgDir": "images/sn-sm.jpg",
+            "imgDir": "images/sn-sm.webp",
             "description": "This is a simple social network made with React and Material UI.",
             "linkToProject": "https://cmoyates.github.io/Social-Network-Frontend/",
             "linkToSourceCode": "https://github.com/cmoyates/Social-Network-Frontend"
         },
         {
             "name": "Game and Bot",
-            "imgDir": "images/gab-sm.jpg",
+            "imgDir": "images/gab-sm.webp",
             "description": "A game and a bot to play it!\nUses PCG and Vector Field pathfinding.",
             "linkToProject": "https://cmoyates.github.io/Game-and-Bot-Build/",
             "linkToSourceCode": "https://github.com/cmoyates/Game-and-Bot"
         },
         {
             "name": "Genetic Evolution Demo",
-            "imgDir": "images/ged-sm.jpg",
+            "imgDir": "images/ged-sm.webp",
             "description": "This is a small game made with Unity that demonstrates Genetic Evolution.",
             "linkToProject": "https://cmoyates.github.io/Genetic-Evolution-Demo-Build/",
             "linkToSourceCode": "https://github.com/cmoyates/Genetic-Evolution-Demo"
         },
         {
             "name": "Portfolio Website",
-            "imgDir": "images/pw-sm.jpg",
+            "imgDir": "images/pw-sm.webp",
             "description": "This is my personal portfolio website. Made with Svelte and Tailwind.",
             "altText": "You're already here!",
             "linkToSourceCode": "https://github.com/cmoyates/Portfolio"
         },
         {
             "name": "Minecraft Settlement Generator",
-            "imgDir": "images/gdmc-sm.jpg",
+            "imgDir": "images/gdmc-sm.webp",
             "description": "This is my entry into the 2021 GDMC Competition. Placed 7th overall.",
             "altText": "Download the Project",
             "linkToProject": "https://github.com/cmoyates/Minecraft-Settlement-Generator/archive/refs/heads/main.zip",
@@ -45,7 +45,7 @@
         },
         {
             "name": "MUN Info Discord Bot",
-            "imgDir": "images/midb-sm.jpg",
+            "imgDir": "images/midb-sm.webp",
             "description": "You give the bot a MUN CS course number and it gives you info on that course!",
             "altText": "Add to a Server",
             "linkToProject": "https://discord.com/api/oauth2/authorize?client_id=875977879064834049&permissions=8&scope=bot",
@@ -53,7 +53,7 @@
         },
         {
             "name": "Closet App",
-            "imgDir": "images/ca-sm.jpg",
+            "imgDir": "images/ca-sm.webp",
             "description": "This is an app made to catalog your closet and plan outfits.",
             "altText": "Download the Project",
             "linkToProject": "https://github.com/cmoyates/Closet-App/releases/download/v1.0/closet-app.apk",
@@ -61,14 +61,14 @@
         },
         {
             "name": "Sorting Algorithm Visualizer",
-            "imgDir": "images/sav-sm.jpg",
+            "imgDir": "images/sav-sm.webp",
             "description": "This is a simple visualizer for several different sorting algorithms.",
             "linkToProject": "https://sorting-algorithm-visual-e7ed1.web.app/#/",
             "linkToSourceCode": "https://github.com/cmoyates/Sorting-Algorithm-Visualizer"
         },
         {
             "name": "Meme Generator",
-            "imgDir": "images/mg-sm.jpg",
+            "imgDir": "images/mg-sm.webp",
             "description": "This is a webapp that can be used to create and generate memes.",
             "linkToProject": "https://meme-generator-bb7e7.web.app/",
             "linkToSourceCode": "https://github.com/cmoyates/Meme-Generator"
